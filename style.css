@@ -74,14 +74,14 @@ select {
 }
 
 #logo {
-  height: 9rem;
-  width: 9rem;
+  height: 14.4vw;
+  width: 14.4vw;
   border-radius: 50%;
   background-color: #01b2de;
   display: inline-block;
-  border: 0.5rem solid #144f5a;
-  box-shadow: 0px 0px 0px 0.5rem whitesmoke;
-  margin: 0.5rem;
+  border: 0.8vw solid #144f5a;
+  box-shadow: 0px 0px 0px 0.8vw whitesmoke;
+  margin: 0.8vw;
 }
 
 .image-center {
@@ -94,7 +94,7 @@ select {
   min-height: inherit;
   height: auto;
   width: auto;
-  margin-top: 10vh;
+  margin-bottom: 10vh;
   color: white;
 }
 
@@ -106,6 +106,10 @@ select {
   margin-right: auto;
 }
 
-span{
+span {
   font-family: Arial, Helvetica, sans-serif;
+}
+.splitcard {
+  width: 50%;
+  min-width: 360px;
 }

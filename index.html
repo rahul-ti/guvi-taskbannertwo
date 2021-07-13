@@ -30,7 +30,9 @@
         width: 100%;
       "
     >
-      <header style="display: grid; grid-template: 1fr/10rem 1fr">
+      <header
+        style="display: grid; grid-template: 1fr/16vw 1fr; margin-bottom: 10vh"
+      >
         <div class="logo" id="logo">
           <img
             src="../images/sister-and-brother.png"
@@ -41,12 +43,12 @@
           />
         </div>
         <div style="display: contents">
-          <p style="display: inline; margin: auto 2rem">
+          <p style="display: inline; margin: auto 3vw">
             <span
               style="
                 color: #fc5b5c;
                 font-weight: 900;
-                font-size: 7rem;
+                font-size: 11vw;
                 line-height: 0.8;
 
                 font-family: Arial, Helvetica, sans-serif;
@@ -57,7 +59,7 @@
                 display: block;
                 color: white;
                 font-weight: bold;
-                font-size: 2.5rem;
+                font-size: 4vw;
                 padding-left: 0.2rem;
               "
               >CHILDHOOD STATISTICS</span
@@ -66,8 +68,19 @@
         </div>
       </header>
     </div>
-    <div class="card-set" style="display: grid; grid-template: 1fr/50% 50%">
-      <div class="card" style="background-color: #ff9e1b; padding: 50px 10%">
+    <div
+      class="card-set"
+      style="
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+      "
+    >
+      <div
+        class="card splitcard"
+        style="background-color: #ff9e1b; padding: 50px 6%"
+      >
         <div
           class="childs"
           style="
@@ -100,15 +113,9 @@
         >
           <p style="text-align: center">1 IN 3</p>
         </span>
-        <p
-          style="
-            font-size: 1.3rem;
-            text-align: center;
-            margin: 0 20%;
-            line-height: 1;
-          "
-        >
-          children and adolescents (ages 2-19)
+        <p style="font-size: 1.3rem; text-align: center; line-height: 1">
+          children and <br />
+          adolescents (ages 2-19)
         </p>
         <h1 style="text-align: center; line-height: 1.2; font-weight: 900">
           ARE OVERWEIGHT <br />
@@ -120,7 +127,10 @@
           recommended healthy diet and physical activity amount.
         </p>
       </div>
-      <div class="card" style="background-color: #00b2e2; padding: 50px 10%">
+      <div
+        class="card splitcard"
+        style="background-color: #00b2e2; padding: 50px 6%"
+      >
         <p style="line-height: 1.2; text-align: center; font-size: 1.3rem">
           An estimated <br />
           <span
@@ -133,34 +143,54 @@
               font-size: 4rem;
               line-height: 1;
               font-weight: 900;
-              
             "
             >12.5 MILLION</span
-          > <br>
-          
-            children (ages 5 years <br> or younger), spend 
-            
+          >
+          <br />
+
+          children (ages 5 years <br />
+          or younger), spend
         </p>
         <h1 style="text-align: center; line-height: 1.5; font-weight: 900">
           33 HOURS / WEEK
         </h1>
         <p style="font-size: 1.3rem; text-align: center; line-height: 1">
-          in 
-          <strong style="text-decoration: underline">child care settings</strong> and consume nearly all of their daily calories.
+          in
+          <strong style="text-decoration: underline"
+            >child care settings</strong
+          >
+          and consume nearly all of their daily calories.
         </p>
       </div>
     </div>
     <div class="card-set card" style="background-color: #ff5959"></div>
     <div class="card-set card" style="background-color: #00b2e2"></div>
-    <div class="card-set" style="display: grid; grid-template: 1fr/50% 50%">
-      <div class="card" style="background-color: #fe595a"></div>
-      <div class="card" style="background-color: #ff9e1b"></div>
+    <div
+      class="card-set"
+      style="
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+      "
+    >
+      <div class="card splitcard" style="background-color: #fe595a"></div>
+      <div class="card splitcard" style="background-color: #ff9e1b"></div>
     </div>
     <div class="card-set card" style="background-color: #00b2e2"></div>
     <div class="card-set card" style="background-color: #ff9e1b"></div>
-    <div class="card-set" style="display: grid; grid-template: 1fr/50% 50%">
-      <div class="card" style="background-color: #00b2e2"></div>
-      <div class="card" style="background-color: #ff5959"></div>
+    <div
+      class="card-set"
+      style="
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+      "
+    >
+      <div class="card splitcard" style="background-color: #00b2e2"></div>
+      <div class="card splitcard" style="background-color: #ff5959"></div>
     </div>
+    <!--Add an alert to say, 'site is responsive too, please check and share feedback'-->
   </body>
 </html>
