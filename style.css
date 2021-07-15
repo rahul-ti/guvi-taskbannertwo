@@ -17,6 +17,10 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  font-size: 1.3rem;
+}
+h1{
+  font-size: 2rem;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -113,12 +117,102 @@ span {
   width: 50%;
   min-width: 360px;
 }
-body{
+body {
   padding: 10vh 10vw;
 }
-@media only screen and (max-width: 768px) {
+header {
+  margin-bottom: 10vh;
+}
+
+.logo-conditions span {
+  margin: auto;
+  padding-top: 10px;
+}
+
+.fas {
+  color: #353a43;
+}
+.tm {
+  line-height: 1;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.th {
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: 900;
+  text-align: center;
+}
+.tb {
+  line-height: 1;
+  font-weight: 900;
+  text-align: unset;
+  font-size: 5rem;
+}
+.threepartgrid {
+  display: grid;
+  grid-template: 1fr 1fr/3fr 1fr;
+  grid-auto-flow: column;
+}
+.verticalmargin div{
+  margin-top: 20px;
+}
+.list{
+  text-align: center;
+  line-height: 3rem;
+  font-size: larger;
+}
+@media only screen and (max-width: 920px) {
   /* For mobile phones: */
   body {
-    padding: 5vh 5vw;
+    padding: 5vh 1vw;
   }
+  header {
+    margin-bottom: 5vh;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  
+  .tb {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  /* For mobile phones: */
+  body {
+    padding: 5vh 0vw;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  /* For mobile phones: */
+  .card-set {
+    width: 50%;
+    min-width: 360px;
+  }
+  .logo-conditions {
+    padding-top: 20px;
+  }
+  .single-card {
+    text-align: center;
+  }
+  .threepartgrid {
+    display: flex;
+    flex-direction: column;
+  }
+  .tb {
+    font-size: 2rem;
+  }
+  .verticalmargin div{
+  margin-top: 20px !important; 
+  text-align: center;
+  padding-right: 0 !important;
+  
+}
+.fas.fa-exclamation-triangle{
+  display: none;
+}
+.tm {
+  text-align: center;
+}
 }

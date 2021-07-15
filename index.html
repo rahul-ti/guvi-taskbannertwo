@@ -22,9 +22,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body
-    style="background-color: #303e47; width: fit-content"
-  >
+  <body style="background-color: #303e47; width: fit-content">
     <div
       style="
         display: flex;
@@ -33,9 +31,7 @@
         width: 100%;
       "
     >
-      <header
-        style="display: grid; grid-template: 1fr/16vw 1fr; margin-bottom: 10vh"
-      >
+      <header style="display: grid; grid-template: 1fr/16vw 1fr">
         <div class="logo" id="logo">
           <img
             src="../images/sister-and-brother.png"
@@ -106,15 +102,8 @@
             style="color: #fc5b59; margin: 0px 4px 5px 4px"
           ></span>
         </div>
-        <span
-          style="
-            text-align: center;
-            font-size: 4rem;
-            line-height: 1.2;
-            font-weight: 900;
-          "
-        >
-          <p style="text-align: center">1 IN 3</p>
+        <span style="text-align: center; line-height: 1.2">
+          <p class="th">1 IN 3</p>
         </span>
         <p style="font-size: 1.3rem; text-align: center; line-height: 1">
           children and <br />
@@ -140,15 +129,7 @@
             class="fas fa-apple-alt"
             style="color: #353535; font-size: 2.3em"
           ></span>
-          <span
-            style="
-              text-align: center;
-              font-size: 4rem;
-              line-height: 1;
-              font-weight: 900;
-            "
-            >12.5 MILLION</span
-          >
+          <span class="th">12.5 MILLION</span>
           <br />
 
           children (ages 5 years <br />
@@ -166,8 +147,155 @@
         </p>
       </div>
     </div>
-    <div class="card-set card" style="background-color: #ff5959"></div>
-    <div class="card-set card" style="background-color: #00b2e2"></div>
+    <div
+      class="card-set card single-card"
+      style="
+        background-color: #ff5959;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        padding: 40px 6%;
+        min-height: 15rem;
+      "
+    >
+      <div style="height: 50%; width: 50%; min-width: 300px">
+        <h1 style="line-height: 1; font-weight: 900; font-size: 2.5rem">
+          OBESITY IS LINKED <br />
+          TO MORE CHRONIC CONDITIONS THAN:
+        </h1>
+      </div>
+      <div
+        class="logo-conditions"
+        style="
+          height: 50%;
+          width: 50%;
+          min-width: 300px;
+          display: grid;
+          grid-template: 1fr 1fr/1fr 1fr 1fr;
+          text-align: center;
+          margin: auto;
+          font-size: 1.3rem;
+        "
+      >
+        <span class="fas fa-smoking fa-3x"> </span>
+        <span class="fas fa-hand-holding-usd fa-3x"></span>
+        <span class="fas fa-cocktail fa-3x"></span>
+        <span>Smoking</span><span>Poverty</span><span>Drinking</span>
+      </div>
+      <div style="height: 50%; width: 10 0%; padding-top: 20px">
+        <p style="font-size: 1.3rem; line-height: 1.3">
+          Increasing the risk of more than
+          <strong style="text-decoration: underline"
+            >20 preventable diseases</strong
+          >, including sleep apnea, asthma, heart disease, Type 2 diabetes,
+          osteoarthiritis,high blood pressure and high-cholesterol stroke.
+        </p>
+      </div>
+    </div>
+    <div
+      class="card-set card verticalmargin"
+      style="background-color: #00b2e2; padding: 50px 6%"
+    >
+      <span class="tm"
+        >RISK FACTORS:<span class="fas fa-exclamation-triangle fa-2x" style="padding-left: 20px;"></span
+      ></span>
+      <div class="threepartgrid" style="grid-template: 1fr 1fr/1fr 1fr; ">
+        
+        <div style="padding-right: 70px;">
+          Children in their early teens who are obese and who have
+          <strong style="text-decoration: underline"
+          >high triglyceride levels</strong
+          >
+          have arteries similar to those of 45-year olds.
+        </div>
+        <div style="padding-right: 70px;">
+          Obese children as young as age 3 show indicators for
+          <strong style="text-decoration: underline"
+          >developing heart disease</strong
+          >
+          later in life.
+        </div>
+        <div style="padding-right: 30px;"> 
+          Children who are overweight from the ages of 7 to 13 may develop
+          <strong style="text-decoration: underline">heart disease</strong> as
+          early as 25 years.
+        </div>
+        <div style="padding-right: 30px;">
+          Obese children are twice as likely to <strong style="text-decoration: underline"
+          >die</strong> before age 55 than their
+          slimmer peers.
+        </div>
+      </div>
+      </div>
+      <div
+      class="card-set"
+      style="
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+      "
+    >
+      <div
+        class="card splitcard verticalmargin"
+        style="background-color: #fe595a; padding: 50px 6%"
+      >
+        <div class="tm" style="text-align: center">FRENCH FRIES</div>
+        <div style="text-align: center">
+          are the most common vegetable that children eat, comprising
+        </div>
+        <div class="th">25%</div>
+        <div style="text-align: center">of their vegetable intake.</div>
+        <div
+          class="fas fa-leaf fa-3x"
+          style="display: flex; justify-content: center; align-items: center;color: greenyellow;"
+        ></div>
+      </div>
+      <div
+        class="card splitcard verticalmargin"
+        style="background-color: #ff9e1b; padding: 50px 6%"
+      >
+        <div
+          class="fas fa-glass-martini-alt fa-3x"
+          style="display: flex; justify-content: center; align-items: center;color: lemonchiffon;"
+        ></div>
+        <div class="tm" style="text-align: center">JUICE</div>
+        <div style="text-align: center">
+          (which may lack important fibre found in whole fruit) makes up
+        </div>
+        <div class="th">40%</div>
+        <div style="text-align: center">of children's daily fruit intake.</div>
+      </div>
+    </div>
+    <div
+      class="card-set card threepartgrid verticalmargin"
+      style="background-color: #00b2e2; padding: 50px 6%"
+    >
+      <div class="tb">40% - 50% OF TODDLERS</div>
+      <div style="margin: auto; margin-left: 0">
+        watch
+        <strong style="text-decoration: underline">more</strong> television than
+        is recommended.
+      </div>
+      <div
+        class="fas fa-tv fa-7x"
+        style="grid-row: 1 / span 2; margin: auto"
+      ></div>
+    </div>
+    <div
+      class="card-set card threepartgrid verticalmargin"
+      style="background-color: #ff9e1b; padding: 50px 6%"
+    >
+      <div class="tb">NEARLY 1/2 PRESCHOOLERS</div>
+      <div style="margin: auto; margin-left: 0">
+        don't get enough
+        <strong style="text-decoration: underline">phyical activity</strong>.
+      </div>
+      <div
+        class="fas fa-biking fa-7x"
+        style="grid-row: 1 / span 2; margin: auto"
+      ></div>
+    </div>
     <div
       class="card-set"
       style="
@@ -177,23 +305,43 @@
         justify-content: center;
       "
     >
-      <div class="card splitcard" style="background-color: #fe595a"></div>
-      <div class="card splitcard" style="background-color: #ff9e1b"></div>
+      <div
+        class="card splitcard verticalmargin"
+        style="
+          background-color: #00b2e2;
+          padding: 50px 6%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          flex-direction: column;
+        "
+      >
+        <div class="fas fa-funnel-dollar fa-5x"></div>
+        <div class="list" style="line-height: normal">
+          The <strong style="text-decoration: underline">cost</strong> of
+          obesity in the united states is staggering totalling about
+        </div>
+        <div class="th">
+          $147 <br />
+          BILLION
+        </div>
+      </div>
+      <div
+        class="card splitcard"
+        style="background-color: #ff5959; padding: 50px 6%;"
+      >
+        <div class="tm" style="text-align: center; margin-bottom: 20px">
+          CHILDREN WHO EAT HEALTHY FOODS AND GET DAILY PHYSICAL ACTIVITY HAVE:
+        </div>
+        <div class="list">Fewer school absences</div>
+        <div class="list">Higher academic achievement</div>
+        <div class="list">Higher self-esteem</div>
+        <div class="list">Fewer behavioral problems</div>
+      </div>
     </div>
-    <div class="card-set card" style="background-color: #00b2e2"></div>
-    <div class="card-set card" style="background-color: #ff9e1b"></div>
-    <div
-      class="card-set"
-      style="
-        display: flex;
-        flex-wrap: wrap;
-        align-items: stretch;
-        justify-content: center;
-      "
-    >
-      <div class="card splitcard" style="background-color: #00b2e2"></div>
-      <div class="card splitcard" style="background-color: #ff5959"></div>
-    </div>
+    <script>
+      setTimeout(function(){ alert("The site is responsive too! Please check and share feedback"); }, 7000);
+    </script>
     <!--Add an alert to say, 'site is responsive too, please check and share feedback'-->
   </body>
 </html>
