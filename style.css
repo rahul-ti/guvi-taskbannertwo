@@ -77,6 +77,7 @@ select {
   }
 }
 
+/*Specific styling for elements*/
 #logo {
   height: 14.4vw;
   width: 14.4vw;
@@ -215,4 +216,12 @@ header {
 .tm {
   text-align: center;
 }
+}
+
+@media only screen and (max-width: 750px) {
+  /* For mobile phones: */
+  .card-set {
+    width: 50%;
+    min-width: 360px;
+  }
 }
